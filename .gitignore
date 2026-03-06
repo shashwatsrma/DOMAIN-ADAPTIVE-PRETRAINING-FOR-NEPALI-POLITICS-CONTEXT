@@ -1,1 +1,3 @@
 bert_nepali_dapt/
+*.pt
+*.safetensors
