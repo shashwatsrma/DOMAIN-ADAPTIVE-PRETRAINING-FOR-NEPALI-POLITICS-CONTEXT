@@ -42,7 +42,7 @@ EPOCHS         = 2
 MLM_PROB       = 0.15
 SEED           = 42
 OUTPUT_DIR     = "./bert_nepali_dapt"
-DATA_PATH      = "finaltrue.csv"
+DATA_PATH      = "Nepali_politics.csv"
 FACTCHECK_PATH = "factcheck.csv"
 
 print(f"\nConfig → Batch: {BATCH_SIZE} | Grad Accum: {GRAD_ACCUM} | Effective Batch: {BATCH_SIZE * GRAD_ACCUM}")
